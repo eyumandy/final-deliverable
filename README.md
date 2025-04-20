@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DiversifAI Recruiter Dashboard
 
-## Getting Started
+An AI‑powered recruitment dashboard built with Next.js and TypeScript. DiversifAI helps recruiters visualize, audit, and export candidate recommendations with full transparency into the decision-making process.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📖 Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+DiversifAI applies a multi‑factor analysis to candidate profiles—resumes, applications, portfolios—and surfaces fair, bias‑mitigated recommendations. Recruiters can:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Drill into how each score was computed  
+- Inspect bias‑detection logs  
+- Customize factor weights on the fly  
+- Export documentation for compliance and reporting
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Dashboard**  
+  Overview of open roles, candidate pipelines, and AI‑generated match scores.  
+- **Candidates & Jobs**  
+  Browse, filter, and compare candidates against active job requisitions.  
+- **AI Transparency**  
+  Step‑by‑step breakdown of data collection, scoring factors, and bias‑mitigation techniques.  
+- **Customizable Workflows**  
+  Adjust factor weights, add notes, and re‑run analyses in real time.  
+- **Export Documentation**  
+  Download full decision logs and architecture diagrams for audit purposes.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tech Stack
 
-## Deploy on Vercel
+- **Framework:** Next.js 15 (App Router)  
+- **Language:** TypeScript  
+- **Styling:** Tailwind CSS + shadcn/ui components  
+- **Icons:** lucide‑react  
+- **State & Data Fetching:** React Server Components & Client Components  
+- **Bundler:** SWC + Webpack (built‑in with Next.js)  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
