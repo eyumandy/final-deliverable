@@ -112,17 +112,6 @@ export default function TransparencyPage() {
                 </p>
               </div>
             </div>
-            
-            <div className="mt-6">
-              <h3 className="font-medium mb-3">System Architecture</h3>
-              <div className="h-[300px]">
-                <img 
-                  src="/placeholder.svg?height=300&width=800&query=AI+system+architecture+diagram+showing+data+flow+and+decision+making+process" 
-                  alt="System architecture diagram" 
-                  className="rounded-md w-full h-full object-cover"
-                />
-              </div>
-            </div>
           </CardContent>
         </Card>
         
@@ -141,5 +130,48 @@ export default function TransparencyPage() {
                 <CardDescription>Understanding how DiversifAI evaluates candidates</CardDescription>
               </CardHeader>
               <CardContent>
-                <div className="space-y-6">
-                  <div className="\
+                <p>Evaluation details would go here</p>
+              </CardContent>
+            </Card>
+          </TabsContent>
+          
+          <TabsContent value="bias" className="space-y-4">
+            <Card>
+              <CardHeader>
+                <CardTitle>Bias Mitigation Techniques</CardTitle>
+                <CardDescription>How we ensure fair evaluations</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>Bias mitigation details would go here</p>
+              </CardContent>
+            </Card>
+          </TabsContent>
+          
+          <TabsContent value="model" className="space-y-4">
+            <Card>
+              <CardHeader>
+                <CardTitle>AI Model Information</CardTitle>
+                <CardDescription>Technical details about our AI</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>Model information would go here</p>
+              </CardContent>
+            </Card>
+          </TabsContent>
+          
+          <TabsContent value="customize" className="space-y-4">
+            <Card>
+              <CardHeader>
+                <CardTitle>Customize Transparency</CardTitle>
+                <CardDescription>Adjust how AI explains its decisions</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>Customization options would go here</p>
+              </CardContent>
+            </Card>
+          </TabsContent>
+        </Tabs>
+      </main>
+    </div>
+  )
+}
